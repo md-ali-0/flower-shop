@@ -9,33 +9,36 @@
     background: rgba(229, 84, 115, 0.10);
 }
 .banner{
+    padding-top: 50px;
+    padding-bottom: 0;
+    padding-left: 120px;
+    padding-right: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin-left: 150px;
-    margin-right: 150px;
-    height: 650px;
 }
 .banner-details{
-    width: 50%;
+    max-width: 500px;
 }
 .banner-image{
-    width: 50%;
     display: flex;
     justify-content: end;
+}
+.banner-image img{
+    width: 450px;
 }
 .banner-heading{
     color: #272727;
     font-size: 58px;
     font-weight: 800;
-    margin-bottom: 32px;
+    margin-bottom: 25px;
 }
 .banner-description{
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 32px;
+    margin-bottom: 25px;
 }
 .primary-button{
     border-radius: 8px;
@@ -48,8 +51,56 @@
     font-size: 20px;
     font-weight: 700;
 }
-.banner-image img{
-    width: 385px;
+
+.featured-flowers{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 110px;
+}
+.section-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+.features{
     display: flex;
-    justify-content: end;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.flower{
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+}
+.flower img{
+    width: 100%;
+}
+.flower-container{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.pink-flower{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.red-flower{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.yellow-flower{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
 }
